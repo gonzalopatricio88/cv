@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Document</*/title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	<div id="container">
+		<ul id="list">
+			<li><a href="http://domain1.com">Item #1</a></li>
+			<li><a href="/local/path/1">Item #2</a></li>
+			<li><a href="/local/path/2">Item #3</a></li>
+			<li><a href="http://domain4.com">Item #4</a></li>
+		</ul>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+	<script> $("li > a").on("click", function(event) {
+				event.preventDefault();
+				console.log($(this).text());
+			});
+
+	$("list")
+	</script>
+</body>
+</html>
